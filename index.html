@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <h2 class="text-4xl text-center mt-6">Income</h2>
+    <p class="text-center mt-8 font-semibold text-2xl">Income: <input class="p-2 px-2 border-2 rounded bg-slate-300	"
+            type="text" name="" id="incomeField" placeholder="Enter amount"></p>
+    <h2 class="text-4xl text-center mt-8">Expanse</h2>
+    <p class="text-center mt-4 font-semibold text-2xl">Food: <input class="p-2 px-2 border-2 rounded bg-slate-300	"
+            type="text" name="" id="food-input" placeholder="Enter amount"></p>
+    <p class="text-center mt-4 font-semibold text-2xl">Rent: <input class="p-2 px-2 border-2 rounded bg-slate-300	"
+            type="text" name="" id="rent-input" placeholder="Enter amount"></p>
+    <p class="text-center mt-4 font-semibold text-2xl">Cloth: <input class="p-2 px-2 border-2 rounded bg-slate-300	"
+            type="text" name="" id="cloth-input" placeholder="Enter amount"></p>
+    <p class="mx-52 text-center mt-6"><button id="btn-calculate"
+            class="bg-blue-700 px-5 py-3 text-white hover:bg-sky-500 font-semibold">Calculate</button></p>
+    <h2 class="text-2xl text-center mt-6 font-semibold">Total Expense: <span id="update-expense">00</span></h2>
+    <h2 class="text-2xl text-center mt-3 font-semibold">Balance: <span id="update-balance">00</span></h2>
+
+    <p class="text-center mt-6"><span class="font-semibold">Save</span>:<input id="save-input"
+            class="p-2 px-2 font-bold border-2 rounded bg-slate-300	" type="text">%
+        <button id="btn-save" class="bg-blue-700 px-5 py-3 text-white hover:bg-sky-500 font-semibold mb-3">Save</button>
+    </p>
+    <h2 class="text-2xl text-center mt-3 font-semibold">Saving Amount: <span id="saving-amount">00</span></h2>
+    <h2 class="text-2xl text-center mt-3 font-semibold">Remaining Amount: <span id="remain">00</span></h2>
+
+
+    <script src="js/js.js"></script>
+</body>
+
+</html>
